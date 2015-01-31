@@ -1,0 +1,52 @@
+// Reset
+@import 'nib'
+global-reset()
+
+html, body
+  height 100%
+  width 100%
+
+strong
+  font-weight bold
+
+em
+  font-style italic
+
+body
+  background #333
+  color #999
+  line-height 1.3em
+a
+  color #eee
+  text-decoration none
+  &:hover
+    color #fff
+    border-bottom 2px dotted
+    padding-bottom 1px
+ul, ol
+  margin 1em 0 1em 1em
+  li
+    margin 0 0 0 1em
+ol
+  list-style-type decimal
+ul
+  list-style-type square
+
+.wrapper
+  width 966px
+  margin 0 auto
+  padding 20px 0
+
+header
+  margin 1em 0
+
+h1
+  font 600 5em "Acme", sans-serif
+  color #ccc
+h2
+  font normal 400 2em "Nunito", sans-serif
+  color #999
+body
+  font normal 400 1.5em "Nunito", sans-serif
+  text-align center
+  margin 4em 0 0 0

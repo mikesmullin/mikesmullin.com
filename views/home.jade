@@ -1,0 +1,26 @@
+extends layouts/global
+
+block head2
+  link(rel='stylesheet' href='http://fonts.googleapis.com/css?family=Acme|Nunito')
+  link(rel='stylesheet' href='/stylesheets/monokai_sublime.css')
+  script(src='/behaviors/highlight.pack.js')
+  script.
+    hljs.initHighlightingOnLoad();
+
+block content
+  #content
+    header
+      .wrapper
+        h1 Mike Smullin's
+        h2 personal website coming soon.
+
+    article
+      .wrapper
+        p
+          | I'm going to try maintaining something statically hosted by Github.
+
+    aside
+      .wrapper
+
+    footer
+      .wrapper
