@@ -1,0 +1,151 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+body {
+  background: #333;
+  color: #999;
+  line-height: 1.3em;
+}
+a {
+  color: #eee;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+  border-bottom: 2px dotted;
+  padding-bottom: 1px;
+}
+ul,
+ol {
+  margin: 1em 0 1em 1em;
+}
+ul li,
+ol li {
+  margin: 0 0 0 1em;
+}
+ol {
+  list-style-type: decimal;
+}
+ul {
+  list-style-type: square;
+}
+.wrapper {
+  width: 966px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+header {
+  margin: 1em 0;
+}
+h1 {
+  font: 600 5em "Acme", sans-serif;
+  color: #ccc;
+}
+h2 {
+  font: normal 400 2em "Nunito", sans-serif;
+  color: #999;
+}
+body {
+  font: normal 400 1.5em "Nunito", sans-serif;
+  text-align: center;
+  margin: 4em 0 0 0;
+}
