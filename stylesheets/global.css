@@ -134,7 +134,7 @@ ul {
   padding: 20px 0;
 }
 header {
-  margin: 1em 0;
+  margin: 1em 0 0 0;
 }
 h1 {
   font: 600 5em "Acme", sans-serif;
@@ -147,5 +147,5 @@ h2 {
 body {
   font: normal 400 1.5em "Nunito", sans-serif;
   text-align: center;
-  margin: 4em 0 0 0;
+  margin: 1em 0 0 0;
 }
