@@ -1,11 +1,6 @@
 extends layouts/global
 
-block head2
-  link(rel='stylesheet' href='http://fonts.googleapis.com/css?family=Acme|Nunito')
-  link(rel='stylesheet' href='/stylesheets/monokai_sublime.css')
-  script(src='/behaviors/highlight.pack.js')
-  script.
-    hljs.initHighlightingOnLoad();
+block head
   script.
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -13,6 +8,13 @@ block head2
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     ga('create', 'UA-254701-1', 'auto');
     ga('send', 'pageview');
+
+block head2
+  link(rel='stylesheet' href='http://fonts.googleapis.com/css?family=Acme|Nunito')
+  link(rel='stylesheet' href='/stylesheets/monokai_sublime.css')
+  script(src='/behaviors/highlight.pack.js')
+  script.
+    hljs.initHighlightingOnLoad();
 
 block content
   #content
